@@ -1,0 +1,56 @@
+<svg width="100%" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes shieldpulse{0%,100%{filter:drop-shadow(0 0 4px #22c55e)}50%{filter:drop-shadow(0 0 16px #22c55e)}}
+@keyframes lockbounce{0%,100%{transform:translateY(0)}40%{transform:translateY(-4px)}70%{transform:translateY(0)}}
+@keyframes badgepop{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes edgeglow{0%,100%{opacity:0.3}50%{opacity:0.8}}
+@keyframes dotblink{0%,100%{opacity:0.3}50%{opacity:1}}
+.shield{animation:shieldpulse 2.5s ease-in-out infinite}
+.lock{transform-origin:340px 130px;animation:lockbounce 2s ease-in-out infinite}
+.b1{transform-origin:290px 90px;animation:badgepop 2s ease-in-out infinite}
+.b2{transform-origin:390px 90px;animation:badgepop 2.4s ease-in-out infinite}
+.b3{transform-origin:270px 148px;animation:badgepop 2.8s ease-in-out infinite}
+.b4{transform-origin:410px 148px;animation:badgepop 1.8s ease-in-out infinite}
+.edge{animation:edgeglow 2.5s ease-in-out infinite}
+.dot{animation:dotblink 1.8s ease-in-out infinite}
+</style>
+<rect width="680" height="340" fill="#0c0a14" rx="24"/>
+<g class="shield">
+  <polygon points="340,30 430,75 430,165 340,210 250,165 250,75" fill="#110e1f" stroke="#22c55e" stroke-width="1.5"/>
+  <polygon points="340,50 415,88 415,158 340,190 265,158 265,88" fill="#0c0a14" stroke="#15803d" stroke-width="0.8"/>
+</g>
+<g class="lock">
+  <rect x="318" y="105" width="44" height="36" rx="8" fill="#0d1f14" stroke="#22c55e" stroke-width="1.5"/>
+  <rect x="325" y="117" width="30" height="18" rx="4" fill="#052e0f"/>
+  <circle cx="340" cy="126" r="5" fill="#22c55e"/>
+  <rect x="339" y="126" width="2" height="6" rx="1" fill="#22c55e"/>
+  <path d="M326,105 Q326,87 340,87 Q354,87 354,105" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g class="b1">
+  <circle cx="290" cy="90" r="16" fill="#0d1f14" stroke="#22c55e" stroke-width="1"/>
+  <text x="290" y="86" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="8" fill="#22c55e" font-weight="700">OTP</text>
+  <text x="290" y="97" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="7" fill="#16a34a">verify</text>
+</g>
+<g class="b2">
+  <circle cx="390" cy="90" r="16" fill="#0d1f14" stroke="#22c55e" stroke-width="1"/>
+  <text x="390" y="86" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="8" fill="#22c55e" font-weight="700">JWT</text>
+  <text x="390" y="97" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="7" fill="#16a34a">token</text>
+</g>
+<g class="b3">
+  <circle cx="270" cy="148" r="16" fill="#0d1f14" stroke="#15803d" stroke-width="1"/>
+  <text x="270" y="144" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="8" fill="#22c55e" font-weight="700">EMAIL</text>
+  <text x="270" y="155" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="7" fill="#16a34a">verify</text>
+</g>
+<g class="b4">
+  <circle cx="410" cy="148" r="16" fill="#0d1f14" stroke="#15803d" stroke-width="1"/>
+  <text x="410" y="144" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="8" fill="#22c55e" font-weight="700">MERN</text>
+  <text x="410" y="155" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="7" fill="#16a34a">stack</text>
+</g>
+<line x1="306" y1="93" x2="323" y2="108" stroke="#22c55e" stroke-width="0.8" class="edge"/>
+<line x1="374" y1="93" x2="357" y2="108" stroke="#22c55e" stroke-width="0.8" style="animation:edgeglow 2s ease-in-out infinite"/>
+<line x1="280" y1="153" x2="316" y2="137" stroke="#15803d" stroke-width="0.8" style="animation:edgeglow 2.8s ease-in-out infinite"/>
+<line x1="400" y1="153" x2="364" y2="137" stroke="#15803d" stroke-width="0.8" style="animation:edgeglow 2.3s ease-in-out infinite"/>
+<rect x="170" y="228" width="340" height="1.5" rx="1" fill="#22c55e" opacity="0.3"/>
+<text x="340" y="265" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="24" font-weight="700" fill="#ffffff" letter-spacing="2">AuthSystem</text>
+<text x="340" y="287" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="11" fill="#16a34a" letter-spacing="5">SECURE · FAST · RELIABLE</text>
+</svg>

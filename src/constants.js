@@ -4,19 +4,23 @@ import skillLaddersLogo from './assets/tech_logo/images2.jpeg'
 import unifiedMentorLogo from './assets/tech_logo/loader.png'
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-import ecommerceLogo from './assets/tech_logo/E-Commerece.png'
 import cartLogo from './assets/tech_logo/Cart.png'
 import patientPortalLogo from './assets/tech_logo/Portal.png'
-import aureviaLogo from './assets/tech_logo/Aurevia.png'
+
 
 import gitmLogo from './assets/tech_logo/Gitm.png'
 import heeraLogo from './assets/tech_logo/Heera.png'
 
-import mediaSearchLogo from "./assets/tech_logo/mediaSearchLogo.png";
-import authLogo from "./assets/tech_logo/authLogo.png";
+// import mediaSearchLogo from "./assets/tech_logo/mediaSearchLogo.png";
+// import authLogo from "./assets/tech_logo/authLogo.png";
 
 
-
+import aureviaLogo from './assets/tech_logo/Aurevia.svg'
+import ecommerceLogo from './assets/tech_logo/ECommerce.svg'
+import mediaSearchLogo from './assets/tech_logo/MediaSearch.svg'
+import authLogo from './assets/tech_logo/AuthSystem.svg'
+import quoteaseLogo from './assets/tech_logo/QuotEase.svg'
+import prosyncLogo from './assets/tech_logo/ProSync.svg'
 
 
 
@@ -81,38 +85,38 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-    //   { name: 'SASS', logo: sassLogo },
+      //   { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-    //   { name: 'Angular', logo: angularLogo },
+      //   { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-    //   { name: 'GSAP', logo: gsapLogo },
-    //   { name: 'Material UI', logo: materialuiLogo },
+      //   { name: 'GSAP', logo: gsapLogo },
+      //   { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-    //   { name: 'Springboot', logo: springbootLogo },
+      //   { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-    //   { name: 'Firebase', logo: firebaseLogo },
-    //   { name: 'PostgreSQL', logo: postgreLogo },
+      //   { name: 'Firebase', logo: firebaseLogo },
+      //   { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
     title: 'Languages',
     skills: [
-    //   { name: 'C', logo: cLogo },
-    //   { name: 'C++', logo: cppLogo },
+      //   { name: 'C', logo: cLogo },
+      //   { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
-    //   { name: 'Python', logo: pythonLogo },
-    //   { name: 'C-Sharp', logo: csharpLogo },
+      //   { name: 'Python', logo: pythonLogo },
+      //   { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -124,7 +128,7 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-    //   { name: 'Compass', logo: mcLogo },
+      //   { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
@@ -133,7 +137,7 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-      {
+  {
     id: 1,
     img: skillLaddersLogo, // add company logo here
     role: "Frontend Developer Intern",
@@ -150,7 +154,7 @@ export const experiences = [
       "State Management",
     ],
   },
-    {
+  {
     id: 2,
     img: unifiedMentorLogo, // add company logo here
     role: "Web Development Intern",
@@ -169,7 +173,7 @@ export const experiences = [
   },
 
 
- {
+  {
     id: 0,
     img: btrackLogo, // add company logo here
     role: "Cloud Computing Intern",
@@ -187,7 +191,7 @@ export const experiences = [
   },
 ];
 
-  
+
 export const education = [
   {
     id: 0,
@@ -218,7 +222,7 @@ export const education = [
   },
 ];
 
- export const projects = [
+export const projects = [
   {
     id: 0,
     title: "E-Commerce React Application",
@@ -258,72 +262,77 @@ export const education = [
 
   {
     id: 2,
-    title: "Shopping Cart & Checkout System",
+    title: "Media Search App",
     description:
-      "A standalone cart and checkout module built as part of an e-commerce workflow. Users can add, remove, and update product quantities with real-time price calculation. Focused on reusable components, clean state management, and performance optimization.",
-    image: cartLogo, // add your image import
+      "A dynamic media search application that allows users to search for images, videos, and GIFs using third-party APIs. Implemented Redux Toolkit for efficient global state management and optimized API handling.",
+    image: mediaSearchLogo, // import your image
     tags: [
       "React JS",
       "Redux Toolkit",
+      "API Integration",
       "JavaScript",
       "State Management",
-      "Component Design",
+      "Responsive Design",
     ],
-    github: "https://github.com/yourusername/react-cart-system",
-    webapp: "https://react-cart-system.netlify.app",
+    github: "https://github.com/yourusername/media-search-app",
+    webapp: "https://your-media-search-app.netlify.app",
   },
-
   {
     id: 3,
-    title: "Healthcare Patient Registration Portal",
+    title: "User Authentication System",
     description:
-      "A responsive patient registration portal built for healthcare use cases. Allows patients to register using email or registration number, ensuring a smooth and user-friendly onboarding experience. Emphasis on form validation, accessibility, and mobile-first design.",
-    image: patientPortalLogo, // add your image import
+      "A full-stack authentication system with secure user registration and login. Includes email verification and password reset functionality using OTP. Integrated Nodemailer for email services and JWT for authentication.",
+    image: authLogo, // import your image
     tags: [
       "React JS",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Form Validation",
-      "Mobile-First Design",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "JWT",
+      "Nodemailer",
+      "Authentication",
+      "REST API",
     ],
-    github: "https://github.com/yourusername/patient-registration-portal",
-    webapp: "https://patient-registration-portal.netlify.app",
+    github: "https://github.com/yourusername/user-auth-system",
+    webapp: "https://your-auth-app.netlify.app",
   },
   {
-  id: 4,
-  title: "Media Search App",
-  description:
-    "A dynamic media search application that allows users to search for images, videos, and GIFs using third-party APIs. Implemented Redux Toolkit for efficient global state management and optimized API handling.",
-  image: mediaSearchLogo, // import your image
-  tags: [
-    "React JS",
-    "Redux Toolkit",
-    "API Integration",
-    "JavaScript",
-    "State Management",
-    "Responsive Design",
-  ],
-  github: "https://github.com/yourusername/media-search-app",
-  webapp: "https://your-media-search-app.netlify.app",
-},
-{
-  id: 5,
-  title: "User Authentication System",
-  description:
-    "A full-stack authentication system with secure user registration and login. Includes email verification and password reset functionality using OTP. Integrated Nodemailer for email services and JWT for authentication.",
-  image: authLogo, // import your image
-  tags: [
-    "React JS",
-    "Node JS",
-    "Express JS",
-    "MongoDB",
-    "JWT",
-    "Nodemailer",
-    "Authentication",
-    "REST API",
-  ],
-  github: "https://github.com/yourusername/user-auth-system",
-  webapp: "https://your-auth-app.netlify.app",
-}
+    id: 4,
+    title: "QuotEase",
+    description:
+      "A dynamic quotation generation web application where users can create, customize, and send professional quotations — similar to Refrens — with a clean form-based UI and real-time preview. Features itemized billing, client details, and email integration via Nodemailer for sending quotations directly.",
+    image: quoteaseLogo,
+    tags: [
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "SQL",
+      "Nodemailer",
+      "Tailwind CSS",
+      "REST API",
+      "Responsive Design",
+    ],
+    github: "https://github.com/Ankuu0217/quotease",
+    webapp: "https://quotease.netlify.app",
+  },
+  {
+    id: 5,
+    title: "ProSync — Project Management Tool",
+    description:
+      "A full stack project management platform inspired by JIRA and Time Doctor. Features task management, sprint planning, backlogs, time monitoring, and team collaboration tools built on the MERN stack. Includes gamification, kudos system, real-time project monitoring, and role-based dashboards for agile development teams.",
+    image: prosyncLogo,
+    tags: [
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "Tailwind CSS",
+      "Socket.io",
+      "JWT",
+      "RBAC",
+      "REST API",
+    ],
+    github: "https://github.com/Ankuu0217/prosync",
+    webapp: "https://prosync.netlify.app",
+  },
 ];

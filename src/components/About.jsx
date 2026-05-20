@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
 import profileImg from "../assets/IMG_1310.jpeg";
 
-import resume from "../assets/Ankit_Singh_Resume.pdf";
+import resume from "../assets/Ankit-Singh-2026.pdf";
 
 
 
@@ -42,7 +42,7 @@ const About = () => {
                         I am a Frontend Developer with a strong foundation in HTML, CSS, JavaScript, and React. I enjoy building responsive, user-friendly web applications and turning ideas into interactive digital experiences. I focus on clean code, performance, and modern UI design while continuously learning new technologies to improve my skills.
                     </p>
 
-                    <a href={resume}  download="Ankit_Singh_Resume.pdf"  target='_blank' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105' style={{
+                    <a href={resume} download="Ankit-Singh-2026.pdf" target='_blank' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105' style={{
                         background: 'linear-gradient(90deg,#8245ec, #a855f7',
                         boxShadow: '0 0 2px #8245ec, 0 0 40px #8245ec'
                     }}>

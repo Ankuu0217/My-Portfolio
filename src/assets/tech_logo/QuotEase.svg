@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes scanline{0%{transform:translateY(0)}100%{transform:translateY(60px)}}
+@keyframes blink{0%,100%{opacity:0.3}50%{opacity:1}}
+@keyframes checkglow{0%,100%{filter:drop-shadow(0 0 3px #1a6fff)}50%{filter:drop-shadow(0 0 10px #1a6fff)}}
+@keyframes floatdoc{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes linegrow{0%{opacity:0.3}50%{opacity:0.9}100%{opacity:0.3}}
+@keyframes trianglepulse{0%,100%{opacity:0.7}50%{opacity:1;filter:drop-shadow(0 0 6px #1a6fff)}}
+.doc{animation:floatdoc 3s ease-in-out infinite}
+.scan{animation:scanline 2.5s linear infinite}
+.check{animation:checkglow 2s ease-in-out infinite}
+.l1{animation:linegrow 2s ease-in-out infinite}
+.l2{animation:linegrow 2.4s ease-in-out infinite}
+.l3{animation:linegrow 2.8s ease-in-out infinite}
+.l4{animation:linegrow 1.8s ease-in-out infinite}
+.tri{animation:trianglepulse 2s ease-in-out infinite}
+.dot{animation:blink 1.8s ease-in-out infinite}
+</style>
+<rect width="680" height="340" fill="#0a0f1e" rx="24"/>
+<g class="doc">
+  <rect x="240" y="30" width="200" height="200" rx="32" fill="#0d1f3c"/>
+  <rect x="248" y="38" width="184" height="184" rx="28" fill="#0a1628" stroke="#1e4d8c" stroke-width="1"/>
+  <rect x="270" y="80" width="120" height="10" rx="5" fill="#1a6fff" class="l1"/>
+  <rect x="270" y="100" width="90" height="8" rx="4" fill="#0e3d8a" class="l2"/>
+  <rect x="270" y="116" width="105" height="8" rx="4" fill="#0e3d8a" class="l3"/>
+  <rect x="270" y="132" width="75" height="8" rx="4" fill="#0e3d8a" class="l4"/>
+  <rect x="270" y="155" width="100" height="8" rx="4" fill="#0e3d8a" class="l2"/>
+  <rect x="270" y="171" width="80" height="8" rx="4" fill="#0e3d8a" class="l1"/>
+  <rect x="248" y="60" width="184" height="2" fill="#1a6fff" opacity="0.1" class="scan"/>
+  <g class="check">
+    <circle cx="390" cy="185" r="22" fill="#0a0f1e" stroke="#1a6fff" stroke-width="1.5"/>
+    <path d="M381 185 L388 192 L400 178" fill="none" stroke="#1a6fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+<g class="tri">
+  <polygon points="330,240 310,270 350,270" fill="#1a6fff"/>
+  <rect x="310" y="268" width="40" height="6" rx="3" fill="#1a6fff"/>
+</g>
+<circle cx="245" cy="60" r="3" fill="#1a6fff" class="dot"/>
+<circle cx="435" cy="215" r="3" fill="#1a6fff" style="animation:blink 2.4s ease-in-out infinite"/>
+<line x1="248" y1="38" x2="232" y2="22" stroke="#1a6fff" stroke-width="0.8" opacity="0.5"/>
+<line x1="432" y1="38" x2="448" y2="22" stroke="#1a6fff" stroke-width="0.8" opacity="0.5"/>
+<line x1="248" y1="222" x2="232" y2="238" stroke="#1a6fff" stroke-width="0.8" opacity="0.5"/>
+<line x1="432" y1="222" x2="448" y2="238" stroke="#1a6fff" stroke-width="0.8" opacity="0.5"/>
+<rect x="185" y="300" width="310" height="1.5" rx="1" fill="#1a6fff" opacity="0.3"/>
+<text x="340" y="318" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="3">QuotEase</text>
+</svg>
