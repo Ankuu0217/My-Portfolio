@@ -21,7 +21,7 @@ const Experience = () => {
                             <img src={experience.img} alt={experience.company} className='w-full h-full object-cover rounded-full' />
                         </div>
 
-                        <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236.0.3)] ${index % 2 === 0 ? "ml-16 sm:ml-44" : "ml-16 sm:ml-0 sm:mr-44"} hover:scale-105 transition transition-transfrom duration-300 `}>
+                        <div className={`w-[calc(100%-4rem)] sm:w-[45%] ml-16 sm:ml-0 p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236.0.3)] hover:scale-105 transition transition-transfrom duration-300`}>
                             <div className='flex items-center space-x-6'>
                                 <div className='w-16 h-16 bg-white rounded-md flex items-center justify-center overflow-hidden shrink-0 '>
                                     <img src={experience.img} alt={experience.company} className='w-12 h-12 object-contain' />
