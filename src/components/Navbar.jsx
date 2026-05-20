@@ -41,7 +41,7 @@ const Navbar = () => {
     ]
 
     return (
-        <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw]${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
+        <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"
             }`}>
             <div className='text-white py-5 flex justify-between items-center'>
                 <div className='text-lg font-semibold cursor-pointer'>
@@ -63,10 +63,10 @@ const Navbar = () => {
                 </ul>
 
                 <div className='hidden md:flex space-x-4'>
-                    <a className='text-gray-300 hover:text-[#8245ec]' href='https://github.com/Ankuu0217' target='_blank' rel='noopener noreferrer'>
+                    <a className='text-gray-300 hover:text-[#8245ec] p-2 block' href='https://github.com/Ankuu0217' target='_blank' rel='noopener noreferrer'>
                         <FaGithub size={24} />
                     </a>
-                    <a className='text-gray-300 hover:text-[#8245ec]' href='https://www.linkedin.com/in/ankit-singh-0216072a6' target='_blank' rel='noopener noreferrer'>
+                    <a className='text-gray-300 hover:text-[#8245ec] p-2 block' href='https://www.linkedin.com/in/ankit-singh-0216072a6' target='_blank' rel='noopener noreferrer'>
                         <FaLinkedin size={24} />
                     </a>
                 </div>
@@ -102,10 +102,10 @@ const Navbar = () => {
 
                         <div className='flex space-x-4'>
 
-                            <a  rel="noopener noreferrer" className='text-gray-300 hover:text-white' href='https://github.com/Ankuu0217' target='_blank'>
+                            <a  rel="noopener noreferrer" className='text-gray-300 hover:text-white p-2 block' href='https://github.com/Ankuu0217' target='_blank'>
                                 <FaGithub size={24} />
                             </a>
-                            <a className='text-gray-300 hover:text-white' href="https://www.linkedin.com/in/ankit-singh-0216072a6" target='_blank'>
+                            <a className='text-gray-300 hover:text-white p-2 block' href="https://www.linkedin.com/in/ankit-singh-0216072a6" target='_blank'>
                                 <FaLinkedin size={24} />
                             </a>
                         </div>
