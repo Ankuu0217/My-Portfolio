@@ -19,6 +19,8 @@ import authLogo from "./assets/tech_logo/authLogo.png";
 
 
 
+
+
 // import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
