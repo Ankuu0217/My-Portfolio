@@ -63,10 +63,10 @@ const Navbar = () => {
                 </ul>
 
                 <div className='hidden md:flex space-x-4'>
-                    <a className='text-gray-300 hover:text-[#8245ec]' href='' target='_blank'>
+                    <a className='text-gray-300 hover:text-[#8245ec]' href='https://github.com/Ankuu0217' target='_blank' rel='noopener noreferrer'>
                         <FaGithub size={24} />
                     </a>
-                    <a className='text-gray-300 hover:text-[#8245ec]' href='' target='_blank'>
+                    <a className='text-gray-300 hover:text-[#8245ec]' href='https://www.linkedin.com/in/ankit-singh-0216072a6' target='_blank' rel='noopener noreferrer'>
                         <FaLinkedin size={24} />
                     </a>
                 </div>
