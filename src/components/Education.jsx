@@ -13,7 +13,7 @@ const Education = () => {
 
             <div className='relative'>
 ``
-                <div className='absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full'> </div>
+                <div className='absolute sm:left-1/2 left-0 transform -translate-x-1/2 w-1 bg-white h-full'> </div>
                 {education.map((edu, index) => (
                     <div key={edu.id} className={`relative flex flex-col sm:flex-row items-center mb-28 ${index % 2 == 0 ? "sm:justify-start" : "sm:justify-end"}`}
                     >
@@ -21,7 +21,7 @@ const Education = () => {
                             <img src={edu.img} alt={edu.school} className='w-full h-full object-cover rounded-full' />
                         </div>
 
-                        <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236.0.3)] ${index % 2 === 0 ? "sm:mr-24" : "sm:ml-8"} hover:scale-105 transition transition-transfrom duration-300 `}>
+                        <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236.0.3)] ${index % 2 === 0 ? "ml-16 sm:ml-0 sm:mr-24" : "ml-16 sm:ml-8"} hover:scale-105 transition transition-transfrom duration-300 `}>
                             <div className='flex items-center space-x-6'>
                                 <div className='w-14 h-14 min-w-[56px] bg-white rounded-md flex items-center justify-center overflow-hidden shrink-0 '>
                                     <img src={edu.img} alt={edu.school} className='w-10 h-10 object-contain' />
